@@ -20,11 +20,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Denomination',
+      title: 'Denomination App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
-      
         textTheme:const  TextTheme(
          bodyLarge: TextStyle(color: Colors.white),
       bodyMedium: TextStyle(color: Colors.white),

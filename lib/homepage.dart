@@ -18,11 +18,8 @@ class _HomepageState extends State<Homepage> {
   final Map<int, int> counts = {};
   int totalAmount = 0;
   bool isExpanded = false;
-    final storage = GetStorage();
-    String amountInWords = '';
-    
-
-
+  final storage = GetStorage();
+  String amountInWords = '';
 
   @override
   void initState() {
